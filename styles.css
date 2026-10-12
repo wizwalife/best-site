@@ -46,6 +46,15 @@
 }
 
 .P1{
+    position: absolute;
     width: 20%;
     height: auto;
+}
+
+.SeaP{
+    position: absolute;
+    left: 22%;
+    width: 50%;
+    height: auto;
+    font-size: 250%;
 }
