@@ -1,25 +1,60 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <title>info</title>
-    </head>
+.BannerContainer {
+    position: relative;
+}
 
-    <body>
-        <div class="BannerContainer">
-            <button class="InfoButton" onclick="window.location.href='info.html'">
-                Info
-            </button>
+.Banner {
+    width: 100%;
+    display: block;
+}
 
-            <button class="HomeButton" onclick="window.location.href='index.html'">
-                Home
-            </button>
+.BannerText {
+    position: absolute;
+    top: 4%;
+    left: 2%;
 
-            <img class="Banner" src="Banner.jpg">
+    color: rgb(0, 255, 157);
+    font-size: 350%;
+}
 
-            <h1 class="BannerText">Info Page</h1>
+.BannerP {
+    position: absolute;
+    color: rgb(130, 255, 245);
+    top: 20%;
+    left: 2%;
+    width: 97%;
+    font-size: 125%;
+}
 
-            <p class="BannerP">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis nibh sed justo efficitur, a suscipit ante pretium. Morbi vel condimentum sapien. Pellentesque commodo lacinia viverra. Nulla eleifend elit ac sapien scelerisque eleifend. Nullam dolor lacus, tincidunt a sollicitudin vel, consequat quis quam. Curabitur at mollis est. Mauris nec tellus eget augue venenatis consectetur at sed nulla. Etiam rutrum placerat enim vitae hendrerit. Integer efficitur tellus in mi ullamcorper commodo. Integer non maximus dolor. Vestibulum sit amet fermentum lacus. Duis porttitor suscipit urna sit amet commodo. Mauris at sodales tortor. Mauris dignissim, libero vel vulputate convallis, est mi blandit eros, at pharetra nibh odio vitae leo.</p>
-        </div>
-    </body>
-</html>
+.InfoButton{
+    position: absolute;
+    border-radius: 100%;
+    background-color: rgb(21, 177, 0);
+    top: 2%;
+    width: 7%;
+    left: 90%;
+    height: 8%;
+}
+
+.HomeButton{
+    position: absolute;
+    border-radius: 100%;
+    background-color: rgb(21, 177, 0);
+    top: 2%;
+    width: 7%;
+    left: 80%;
+    height: 8%;
+}
+
+.P1{
+    position: absolute;
+    width: 20%;
+    height: auto;
+}
+
+.SeaP{
+    position: absolute;
+    left: 22%;
+    width: 50%;
+    height: auto;
+    font-size: 250%;
+}
